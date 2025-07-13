@@ -4,7 +4,7 @@ export function showRegister() {
         <h1>Register</h1>
         <form id="register-form">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required>
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
             <label for="password">Password</label>

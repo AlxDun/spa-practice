@@ -1,6 +1,6 @@
-import { show404 } from "./views/404";
-import { showLogin } from "./views/login"
-import { showRegister } from "./views/register";
+import { show404 } from "./views/404View";
+import { showLogin } from "./views/loginView"
+import { showRegister } from "./views/registerView";
 
 const routes = {
     "/": {
