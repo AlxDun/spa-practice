@@ -5,18 +5,18 @@ import { showRegister } from "./views/registerView";
 const routes = {
     "/": {
         showView: showLogin(),
-        afterRender: "settingsLogin",
-        private: false
+        // afterRender: "settingsLogin",
+        // private: false
     },
     "/login": {
         showView: showLogin(),
-        afterRender: "settingsLogin",
-        private: false
+        // afterRender: "settingsLogin",
+        // private: false
     },
     "/register": {
         showView: showRegister(),
-        afterRender: "settingsRegister",
-        private: false
+        // afterRender: "settingsRegister",
+        // private: false
     }
 }
 
