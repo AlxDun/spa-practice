@@ -1,16 +1,11 @@
 {
     "users": [
         {
+            "id": "1",
             "name": "juan",
             "email": "juan@mail.com",
             "password": "juan123",
             "admin": true
-        },
-        {
-            "name": "beto",
-            "email": "beto@mail.com",
-            "password": "beto123",
-            "admin": false
         }
     ],
     "tasks": {}
